@@ -1,0 +1,53 @@
+
+
+body{
+    background-image: url(../assets/triangle-mosaic.png) ;
+}
+header{
+    background-color: white;
+    margin: -20px -10px -10px -10px;   
+    
+}
+#header{
+    border-bottom: 5px solid black;
+}
+#aboutme{
+    color: teal;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+#portfolio{
+    text-align: right;
+    float: right;
+    padding: 0px 50px;
+    color: gray;   
+
+}
+#contact{
+    float: right;
+    padding: 0px 50px;
+    color: gray;
+
+}
+#about{
+    text-align: right;
+    float: right;
+    padding: 0px 50px;
+    color: gray;  
+}
+
+#name{
+    padding: 50px;
+    color: white;
+    margin-left: 100px;
+    max-width: 150px;
+    background-color: teal;
+    text-align: center;   
+}
+#paragraph{
+    color: gray;
+}
+
