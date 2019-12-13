@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url(../assets/triangle-mosaic.png) ;
+    background-image: url(../assets/mirrored_squares.png) ;
 }
 header{
     background-color: white;
@@ -51,3 +51,57 @@ header{
     color: gray;
 }
 
+form{
+    color: teal;
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+}
+
+
+#pic1{
+    margin: 20px;
+}
+.centered{
+    
+    position: relative;
+    top: 170px;
+    left: 80px;
+    
+}
+#pic2{
+    margin: 20px;
+}
+
+#pic3{
+    margin: 20px;
+}
+#pic4{
+    margin: 20px;
+}
+#pic5{
+    margin: 20px;
+}
+.second_row{
+    position: relative;
+    left: 300px;
+    top: -785px;
+}
+footer{
+    height: 50px;
+}
+
+.contact_name{
+    padding: 10px;
+    
+}
+.contact_message{
+    padding-right: 200px ;
+    padding-bottom: 20px;
+}
+.contact_email{
+    padding: 10px 10px;
+}
+.contact_sumbit{
+    text-align: center;
+}
