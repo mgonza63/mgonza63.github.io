@@ -16,8 +16,13 @@ header{
     background-color: white;
     padding: 50px;
     margin: 50px;
-    
+    padding-bottom: 200px;
 }
+.about_pic{
+    float: left;
+    padding: 20px 20px
+}
+
 
 #portfolio{
     text-align: right;
@@ -49,6 +54,8 @@ header{
 }
 #paragraph{
     color: gray;
+    padding-top: 50px;
+    
 }
 
 form{
@@ -92,15 +99,14 @@ footer{
 }
 
 .contact_name{
-    padding: 10px;
+    padding: 10px 500px;
     
 }
 .contact_message{
-    padding-right: 200px ;
-    padding-bottom: 20px;
+    padding: 50px 500px
 }
 .contact_email{
-    padding: 10px 10px;
+    padding: 10px 500px;
 }
 .contact_sumbit{
     text-align: center;
