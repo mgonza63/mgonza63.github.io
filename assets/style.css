@@ -3,58 +3,57 @@
 body{
     background-image: url(../assets/mirrored_squares.png) ;
 }
-header{
-    background-color: white;
-    margin: -20px -10px -10px -10px;   
+
+
+.nav-title{
+    background-color: #4aaaa5;
+    padding: 30px;
+    color: white;
+    max-width: 180px;
+    margin: auto;
+    margin-bottom: -10px;
+    margin-top: -10px;
     
+
 }
-#header{
-    border-bottom: 5px solid black;
-}
+
 #aboutme{
     color: teal;
     background-color: white;
     padding: 50px;
-    margin: 50px;
-    padding-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
 }
 .about_pic{
     float: left;
     padding: 20px 20px
 }
 
-
-#portfolio{
-    text-align: right;
-    float: right;
-    padding: 0px 50px;
-    color: gray;   
-
-}
-#contact{
-    float: right;
-    padding: 0px 50px;
-    color: gray;
-
-}
+ 
+#portfolio,
+#contact,
 #about{
     text-align: right;
     float: right;
-    padding: 0px 50px;
-    color: gray;  
+    padding: 0px 30px;
+    line-height: 18px;
+    color: #999;
+    border-left: 1px solid #efefef;
+     
 }
+
 
 #name{
     padding: 50px;
     color: white;
-    margin-left: 100px;
-    max-width: 150px;
+    margin-left: 50px;
+    max-width: 250px;
     background-color: teal;
-    text-align: center;   
+
 }
-#paragraph{
+p{
     color: gray;
-    padding-top: 50px;
     
 }
 
@@ -65,49 +64,38 @@ form{
     margin: 50px;
 }
 
-
-#pic1{
-    margin: 20px;
-}
-.centered{
-    
-    position: relative;
-    top: 170px;
-    left: 80px;
-    
-}
-#pic2{
-    margin: 20px;
-}
-
-#pic3{
-    margin: 20px;
-}
-#pic4{
-    margin: 20px;
-}
-#pic5{
-    margin: 20px;
-}
-.second_row{
-    position: relative;
-    left: 300px;
-    top: -785px;
-}
-footer{
-    height: 50px;
-}
-
 .contact_name{
     padding: 10px 500px;
     
 }
 .contact_message{
-    padding: 50px 500px
+    
 }
 .contact_email{
     padding: 10px 500px;
 }
 .contact_sumbit{
     text-align: center;
+}
+
+#project{
+    
+    
+    width: 274px;
+    margin: 20px 20px 25px;
+    
+}
+
+.col-md-4 h4{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 50px 0px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    background: #4aaaa5;
+    
+
+
 }
