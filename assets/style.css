@@ -65,16 +65,23 @@ form{
 }
 
 .contact_name{
-    padding: 10px 500px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
     
+}
+
+.contact_email{
+    width: 100%;
+    max-width: 1000px;
 }
 .contact_message{
-    
-}
-.contact_email{
-    padding: 10px 500px;
+    width: 100%;
+    max-width: 1000px;
+    height: 60px;
 }
 .contact_sumbit{
+    padding: 10px;
     text-align: center;
 }
 
