@@ -1,11 +1,10 @@
 {
 	"folders": [
 		{
-			"name": "homeworks",
 			"path": "/Users/mauriciogonzalez/Documents/sandbox/homeworks"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "homeworks"
+		"liveServer.settings.multiRootWorkspaceName": "vigilant-invention"
 	}
 }

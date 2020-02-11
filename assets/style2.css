@@ -1,0 +1,42 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+#first {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #8bbabb, #6c7b95);
+    
+    background-size: cover;
+
+}
+#first-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+}
+#second {
+    width: 100%;
+    height: 100vh;
+
+    background-image: linear-gradient(to bottom right, #464159, #8bbabb) 
+}
+#third {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../pic2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+#fourth {
+    width: 100%;
+    height: 100vh;
+}
