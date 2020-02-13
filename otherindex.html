@@ -5,21 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mauricio Gonzalez</title>
     <link rel="stylesheet" href="assets/style2.css">
+    
+    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
 </head>
 <body>
+    <div class="whitespace"></div>
+
     <div id="first">
-        <h1 id="first-title">About Me</h1>
+        <img id="austin-pic" class="austin" src="./austin.jpg" alt="austin">
+        <!-- <img id="me-pic" class="me" src="./pic1.jpg" alt="me"> -->
+        <h1 id="first-title">Mauricio Gonzalez</h1>
+        <h2 id="first-subtitle">Front-End Developer</h2>
+        
     </div>
     <div id="second">
-        <h1 id="first-title">Projects</h1>
+        <h1 id="second-title">Projects</h1>
     </div>
     <div id="third">
-        <h1 id="first-title">Picture</h1>
+        <h1 id="third-title">Picture</h1>
     </div>
     <div id="fourth">
-        <h1 id="first-title">Contact</h1>
+        <h1 id="fourth-title">Contact</h1>
     </div>
 
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <script>
+        var image1 = document.getElementsByClassName('austin');
+        new simpleParallax(image1, {
+            scale: 1.8,
+            orientation: "up"
+      });
+
+      var image2 = document.getElementsByClassName('me');
+      new simpleParallax(image2, {
+            scale: 1.6,
+            
+      });
+      var text1 = document.getElementById('first-title');
+      new simpleParallax(text1, {
+            scale: 1.2,
+
+      });
+    </script>
+    
 </body>
 </html>
