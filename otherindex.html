@@ -8,47 +8,68 @@
     
     <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 <body>
     <div class="whitespace"></div>
 
-    <div id="first">
-        <img id="austin-pic" class="austin" src="./austin.jpg" alt="austin">
-        <!-- <img id="me-pic" class="me" src="./pic1.jpg" alt="me"> -->
-        <h1 id="first-title">Mauricio Gonzalez</h1>
-        <h2 id="first-subtitle">Front-End Developer</h2>
-        
-    </div>
-    <div id="second">
-        <h1 id="second-title">Projects</h1>
-    </div>
-    <div id="third">
-        <h1 id="third-title">Picture</h1>
-    </div>
-    <div id="fourth">
-        <h1 id="fourth-title">Contact</h1>
+    <div class="container-fluid">
+        <div class="row" id="first">
+            <div id="first-subtitle-col" class="col-lg-6">
+                <h2 id="first-subtitle">Front-End Developer</h2>
+            </div>
+    
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div id="austin-col" class="col-sm-10">
+                <img id="austin-pic" class="austin" src="./austin.jpg" alt="austin">
+            </div>
+        </div>
+            <!-- <img id="me-pic" class="me" src="./pic1.jpg" alt="me"> -->
+            <div class="col-sm-10">
+                <h1 id="first-title">Mauricio Gonzalez</h1>
+            </div>
+            <div id="me-col" class="col-sm-10">
+                <img id="me-pic" class="me" src="./pic1.jpg" alt="me">
+            </div>
+
+            
+        </div>
+        <div class="container-fluid" id="second">
+            <div id="second-title-col" class="row">
+                <h1 id="second-title">About Me</h1>
+            </div>
+        </div>
+        <div class="container-fluid" id="third">
+            <div id="third-title-col" class="row">
+                <h1 id="third-title">About Me</h1>
+            </div>
+        </div>
+        <div class="container-fluid" id="fourth">
+            <div id="fourth-title-col" class="row">
+                <h1 id="fourth-title">About Me</h1>
+            </div>
+        </div>
     </div>
 
     <!-- <script src="main.js"></script> -->
     <script>
         var image1 = document.getElementsByClassName('austin');
         new simpleParallax(image1, {
-            scale: 1.8,
+            scale: 1.5,
             orientation: "up"
       });
-
-      var image2 = document.getElementsByClassName('me');
-      new simpleParallax(image2, {
-            scale: 1.6,
-            
-      });
-      var text1 = document.getElementById('first-title');
-      new simpleParallax(text1, {
-            scale: 1.2,
-
+        var image1 = document.getElementsByClassName('me');
+        new simpleParallax(image1, {
+            scale: 1.5,
+            orientation: "right"
       });
     </script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 </body>
 </html>
