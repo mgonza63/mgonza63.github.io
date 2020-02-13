@@ -18,7 +18,7 @@ const parallaxX = (element, distance, speed) => {
      
      parallaxY("austin-col", window.scrollY, -0.3);
 
-     parallaxY("me-col", window.scrollY, 0.4);
+     parallaxY("me-col", window.scrollY, 0.35);
      
      parallaxY("second-title-col", window.scrollY, -0.9 );
 

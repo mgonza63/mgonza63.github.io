@@ -65,7 +65,7 @@ h1, h2 {
     
 }
 #me-col {
-    top: -300px;
+    top: -250px;
     z-index: 1;
 }
 #second {
@@ -82,6 +82,15 @@ h1, h2 {
     color: #f4f4f4;
     
 }
+#card {
+    background-image: linear-gradient(to bottom right #232020, #3a3535);
+}
+p {
+    font-family: OktaNeue-BlackItalic; 
+	font-weight: normal;
+
+}
+
 #third {
     width: 100%;
     height: 100vh;
