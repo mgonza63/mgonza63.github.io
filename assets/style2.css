@@ -82,8 +82,18 @@ h1, h2 {
     color: #f4f4f4;
     
 }
-#card {
-    background-image: linear-gradient(to bottom right #232020, #3a3535);
+.card-text {
+    text-align: center;
+    font-family: OktaNeue-BlackItalic;
+    font-weight: normal; 
+    color: #f4f4f4;
+}
+.card-text2 {
+    text-align: center;
+    font-family: OktaNeue-BlackItalic;
+    font-weight: normal;
+    color: #f4f4f4; 
+    
 }
 p {
     font-family: OktaNeue-BlackItalic; 
@@ -94,13 +104,18 @@ p {
 #third {
     width: 100%;
     height: 100vh;
-    background-image: url(../pic2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
 
+}
+#third-title {
+    font-family: OktaNeue-BlackItalic;  
+    font-style: normal; 
+    font-weight: bolder;
+    font-size: 90px;
+    color: #ff7315;
 
 }
 #fourth {
     width: 100%;
     height: 100vh;
 }
+
